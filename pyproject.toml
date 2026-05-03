@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cascading-effect"
+version = "0.1.0"
+description = ""
+authors = ["Júlio Paiva <julio.paiva@luizalabs.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.57.0"
+pandas = "^3.0.2"
+plotly = "^6.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
